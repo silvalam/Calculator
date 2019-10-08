@@ -12,6 +12,7 @@
 		7542753E234AB69000144CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542753C234AB69000144CBB /* Main.storyboard */; };
 		75427540234AB69100144CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7542753F234AB69100144CBB /* Assets.xcassets */; };
 		75427543234AB69100144CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75427541234AB69100144CBB /* LaunchScreen.storyboard */; };
+		7542754B234B1B3000144CBB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542754A234B1B3000144CBB /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7542753F234AB69100144CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75427542234AB69100144CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75427544234AB69100144CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7542754A234B1B3000144CBB /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7542753F234AB69100144CBB /* Assets.xcassets */,
 				75427541234AB69100144CBB /* LaunchScreen.storyboard */,
 				75427544234AB69100144CBB /* Info.plist */,
+				7542754A234B1B3000144CBB /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7542754B234B1B3000144CBB /* CalculatorBrain.swift in Sources */,
 				7542753B234AB69000144CBB /* ViewController.swift in Sources */,
 				75427539234AB69000144CBB /* AppDelegate.swift in Sources */,
 			);
